@@ -1,0 +1,102 @@
+body {
+    background-color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation {
+height: 186px;
+font-weight: bolder;
+font-size: 20pt;
+display: flex;
+}
+
+.navBleed {
+background-color: #e7ddd3;
+width: 342px;
+height: 186px;
+
+}
+
+.navLogo {
+margin: 0;
+padding: 0;
+}
+
+.inlineNav {
+    text-align: center;
+width: 218px;
+align-self: flex-end;
+}
+
+.linkedin {
+    align-self: flex-end;
+    width:200px;
+}
+.frame {
+    width: 1920px;
+}
+
+.hero {
+    background-color: #e7ddd3;
+    height: 370px;
+    display: flex;
+}
+
+.banner {
+    width: 30%;
+    align-self: center;
+    text-align: left;
+    padding-left: 200px;
+}
+
+.filler {
+    width:70%;
+}
+
+.banner div {
+    padding-left: 15px;
+}
+
+#name {
+    font-size: 30pt;
+    padding-left: 0px;
+}
+
+.sub-nav-frame {
+    background-color: #e7ddd3;
+    height: 176px;
+}
+
+.sub-navigation {
+    float: right;
+    width: 1142px;
+    height: 176px;
+    background-color: white;
+    text-align: left;
+    display: flex;
+}
+
+.sub-navigation .button {
+    padding-top: 50px;
+    padding-left: 100px;
+    display: flex;
+}
+.sub-navigation .button .icon {
+    width: 71px;
+    height: 71px;
+    background-color: gray
+    ;
+}
+
+.sub-navigation .button .label{
+    padding-left: 10px;
+}
+
+.sub-navigation .button .label .title {
+    font-size: 20pt;
+}
+
+.sub-navigation .button .label .subtitle {
+    font-size: 15pt;
+}
