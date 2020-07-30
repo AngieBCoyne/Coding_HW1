@@ -61,6 +61,7 @@ align-self: flex-end;
 #name {
     font-size: 30pt;
     padding-left: 0px;
+    font-family: 'Poiret One', cursive;
 }
 
 .sub-nav-frame {
@@ -99,4 +100,44 @@ align-self: flex-end;
 
 .sub-navigation .button .label .subtitle {
     font-size: 15pt;
+}
+
+.headlineFrame {
+    width: 1920px;
+    height: 926px;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+
+.headlineFrame .beige {
+    width: 1735px;
+    height: 546px;
+    background-color: #e7ddd3;
+    margin: 200px 0 0 200px;
+    float: right;
+}
+
+.headlineFrame .beige .title {
+    text-align: rightleft;
+    font-size: 20px;
+
+}
+
+.headlineFrame .beige .subtitle {
+    text-align: left;
+    font-size: 15px;
+}
+
+.headlineFrame .brown {
+    width: 1140px;
+    height: 544px;
+    background-color: #a69e86;
+    position: absolute;
+}
+
+.headlineFrame .image {
+    width: 546px;
+    height: 534px;
+    position: absolute;
 }
