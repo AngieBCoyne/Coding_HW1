@@ -5,28 +5,28 @@ body {
 }
 
 .navigation {
-height: 186px;
-font-weight: bolder;
-font-size: 20pt;
-display: flex;
+    height: 186px;
+    font-weight: bolder;
+    font-size: 20pt;
+    display: flex;
 }
 
 .navBleed {
-background-color: #e7ddd3;
-width: 342px;
-height: 186px;
+    background-color: #e7ddd3;
+    width: 342px;
+    height: 186px;
 
 }
 
 .navLogo {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .inlineNav {
     text-align: center;
-width: 218px;
-align-self: flex-end;
+    width: 218px;
+    align-self: flex-end;
 }
 
 .linkedin {
@@ -104,9 +104,8 @@ align-self: flex-end;
 
 .headlineFrame {
     width: 1920px;
-    height: 926px;
+    height: 816px;
     background-color: white;
-    display: flex;
     position: relative;
 }
 
@@ -114,19 +113,21 @@ align-self: flex-end;
     width: 1735px;
     height: 546px;
     background-color: #e7ddd3;
-    margin: 200px 0 0 200px;
     float: right;
 }
 
 .headlineFrame .beige .title {
-    text-align: rightleft;
-    font-size: 20px;
-
+    font-weight: bolder;
+    font-size: 20pt;
+    text-align: left;
+    margin: 250px 0 0 150px;
 }
 
 .headlineFrame .beige .subtitle {
     text-align: left;
-    font-size: 15px;
+    font-size: 18px;
+    text-align: left;
+    margin: 0 0 0 150px;
 }
 
 .headlineFrame .brown {
@@ -134,10 +135,11 @@ align-self: flex-end;
     height: 544px;
     background-color: #a69e86;
     position: absolute;
+    margin: 400px 0 200px 650px;
 }
 
 .headlineFrame .image {
-    width: 546px;
-    height: 534px;
     position: absolute;
+    margin: 550px 0 0 330px;
+    
 }
